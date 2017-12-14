@@ -7,7 +7,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 	font-family:sans-serif;
 }
 html,
-body { height: 100%;}
+body { height: 100%;overflow: hidden}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block;}
 b,strong { font-weight: bold;}
 img {color: transparent;font-size: 0;vertical-align: middle;-ms-interpolation-mode: bicubic;}
