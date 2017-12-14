@@ -1,0 +1,66 @@
+@charset 'utf-8';
+
+
+.baseInfo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.baseInfo .circle{
+	width:6px;height:6px;border-radius:3px;background:#cfff00;
+	position:absolute;box-shadow:0 0 5px 0 #cfff00;
+}
+.baseInfo .action{
+	position:relative;overflow:hidden;
+}
+.baseInfo .circle1{
+	left:0;top:0;
+}
+.baseInfo .circle2{
+	left:216px;top:0;
+}
+.baseInfo .dataLink .linkList{
+	text-align:center;margin-top:30px;
+}
+.baseInfo .dataLink .linkList span{
+	background:url(../images/linkListBg.png) no-repeat left top;
+	color:#fff;font:normal 18px/60px "Microsoft Yahei";
+	display:inline-block;width:60px;height:60px;
+	margin:0 30px;text-align:center;
+}
+.baseInfo .dataLink .linkAction{
+	background:url(../images/linkAction.png) no-repeat left top;
+	width:514px;height:74px;margin:0 auto;
+}
+.baseInfo .dataLink .linkAction .circle4{
+	left:2px;top:0;
+}
+.baseInfo .dataLink .linkAction .circle5{
+	left:506px;top:0;
+}
+.baseInfo .dataLink .linkMove{
+	width:210px;height:170px;margin:0 auto;
+	position:relative;left:6px;top:-25px;
+}
+.baseInfo .dataLink .linkMove .box{
+	width:210px;height:82px;transform:scaleY(0.35);
+	position:absolute;top:0;
+}
+.baseInfo .dataLink .linkMove .box2{top:30px;}
+.baseInfo .dataLink .linkMove .box3{top:60px;}
+.baseInfo .dataLink .linkMove .box4{top:90px;}
+.baseInfo .dataLink .linkMove .box:before{
+	width:149px;height:149px;
+	transform-origin: center center;transform:rotate(45deg);
+	background:#319dff;border-radius:10px;
+	position:relative;top:-42px;left:30px;
+}
+.baseInfo .dataLink .linkMove .box1:before{opacity:0.8;}
+.baseInfo .dataLink .linkMove .box2:before{opacity:0.6;}
+.baseInfo .dataLink .linkMove .box3:before{opacity:0.4;}
+.baseInfo .dataLink .linkMove .box4:before{opacity:0.2;}
+.baseInfo .dataLink .linkMove .linkMoveTxt{
+	position:absolute;top:0;left:0;width:100%;z-index:9;
+	color:#eee;font:bold 22px/72px "Microsoft Yahei";
+	text-align:center;
+}
