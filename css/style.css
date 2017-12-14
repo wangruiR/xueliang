@@ -23,14 +23,20 @@
 	text-align:center;margin-top:30px;
 }
 .baseInfo .dataLink .linkList span{
-	background:url(../images/linkListBg.png) no-repeat left top;
-	color:#fff;font:normal 18px/60px "Microsoft Yahei";
-	display:inline-block;width:60px;height:60px;
-	margin:0 30px;text-align:center;
+	background: url(../images/linkListBg.png) no-repeat left top;
+    background-size: 100%;
+    color: #fff;
+    font: normal 14px/40px "Microsoft Yahei";
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 8px;
+    text-align: center
 }
 .baseInfo .dataLink .linkAction{
 	background:url(../images/linkAction.png) no-repeat left top;
-	width:514px;height:74px;margin:0 auto;
+	background-size:100%; 
+	width:100%;height:74px;margin:0 auto;
 }
 .baseInfo .dataLink .linkAction .circle4{
 	left:2px;top:0;
