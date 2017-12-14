@@ -50,14 +50,14 @@ $(function(){
 
 	/*action*/
 
-	$(".population").find(".action").active([
+/*	$(".population").find(".action").active([
 			[
 				[[0,0],[0,20],[108,20],[108,42]]
 			],
 			[
 				[[216,0],[216,20],[108,20],[108,42]]
 			]
-		]);
+		]);*/
 	$(".house").find(".action").active([
 			[
 				[[0,2],[56,2]]
