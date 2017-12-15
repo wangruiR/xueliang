@@ -70,3 +70,13 @@
 	color:#eee;font:bold 22px/72px "Microsoft Yahei";
 	text-align:center;
 }
+.linkMoveTxt{
+	height: 72px;
+	line-height: 56px !important;;
+}
+.number{
+	position: absolute;
+    top: 25px;
+    left: 71px;
+    font-size: 22px;
+}
